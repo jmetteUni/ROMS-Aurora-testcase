@@ -1130,8 +1130,8 @@ PIO_I2C_Preq = 65                 ! Maximum pending I2C requests
 
 ! Input tidal forcing file name.
 
-    TIDENAME == roms_tides.nc
-!   TIDENAME == ../aurora/Grid_Aurora_M30L15_tides.nc
+!    TIDENAME == roms_tides.nc
+   TIDENAME == ../aurora/Data/Grid_Aurora_M55L55_tides.nc
      
 ! Input forcing NetCDF file name(s).
 !
@@ -1154,8 +1154,8 @@ PIO_I2C_Preq = 65                 ! Maximum pending I2C requests
      NFFILES == 1                          ! number of unique forcing files
 
 !     FRCNAME == roms_frc.nc
-!      FRCNAME == ../aurora/Data/Grid_Aurora_M55L55_bhflux_large_heat3_20230605T00.nc               ! forcing file 1, grid 1
-     FRCNAME == ../aurora/Data/Grid_Aurora_M55L55_bhflux_100000000MW__large_heat3_20230605T00.nc               ! forcing file 1, grid 1
+     FRCNAME == ../aurora/Data/Grid_Aurora_M55L55_bhflux_130MW_large_heat3_20230605T00.nc               ! forcing file 1, grid 1
+!     FRCNAME == ../aurora/Data/Grid_Aurora_M55L55_bhflux_100000000MW__large_heat3_20230605T00.nc               ! forcing file 1, grid 1
 
 ! Output NetCDF file names, [1:Ngrids].
 

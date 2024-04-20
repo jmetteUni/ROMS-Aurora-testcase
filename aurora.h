@@ -50,13 +50,13 @@
 
 #define RADIATION_2D
 
-#undef TIDE_GENERATING_FORCES
+#define TIDE_GENERATING_FORCES
 #if defined TIDE_GENERATING_FORCES
 #define SSH_TIDES
 #define UV_TIDES
 
-#undef ADD_FSOBC
-#undef ADD_M2OBC
+#define ADD_FSOBC
+#define ADD_M2OBC
 #undef RAMP_TIDES
 #endif
 
